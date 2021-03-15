@@ -23,4 +23,4 @@ unity.o: unity/src/unity.c
 .PHONY: clean
 
 clean:
-	rm build/* bin/*
+	$(RM) build/* bin/*
