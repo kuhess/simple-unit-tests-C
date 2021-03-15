@@ -2,31 +2,31 @@
 #include "dummy.h"
 
 
-void setUp() {}
-void tearDown() {}
+void setUp(void) {}
+void tearDown(void) {}
 
 
-void test_additionner_should_doAddition()
+void test_additionner_should_doAddition(void)
 {
-    // Given
+    /* Given */
     int a = 20;
     int b = 46;
 
-    // When
+    /* When */
     int resultat = additionner(a, b);
 
-    // Then
+    /* Then */
     TEST_ASSERT_EQUAL_INT(66, resultat);
 }
 
-void test_programVersion_should_returnGoodVersion()
+void test_programVersion_should_returnGoodVersion(void)
 {
-    // Given
+    /* Given */
 
-    // When
+    /* When */
     const char* version = programVersion();
 
-    // Then
+    /* Then */
     TEST_ASSERT_EQUAL_STRING("0.1-SNAPSHOT", version);
 }
 

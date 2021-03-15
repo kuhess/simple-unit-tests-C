@@ -1,2 +1,6 @@
 unity/
+
+bin/
+build/
+
 .vscode/

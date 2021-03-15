@@ -3,6 +3,6 @@
 
 int additionner(int a, int b);
 
-const char* programVersion();
+const char* programVersion(void);
 
 #endif

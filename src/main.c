@@ -2,7 +2,7 @@
 #include "dummy.h"
 
 
-int main(int argc, char const *argv[])
+int main(void)
 {
     int a, b, result;
     
@@ -10,7 +10,7 @@ int main(int argc, char const *argv[])
     scanf("%d %d", &a, &b);
 
     result = additionner(a, b);
-    printf("La somme est égale à %d", result);
+    printf("La somme est égale à %d\n", result);
 
     return 0;
 }
