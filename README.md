@@ -39,3 +39,17 @@ Exécuter les tests :
 ```
 ./bin/test_dummy
 ```
+
+## Commandes avec le Makefile
+
+### Compiler l'application et les tests
+
+```
+make
+```
+
+### Nettoyer les fichiers générés (dans `bin` et `build`)
+
+```
+make clean
+```
